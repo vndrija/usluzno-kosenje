@@ -1,27 +1,30 @@
 export default function Services() {
   const services = [
     {
-      title: "Kosenje trave trimerom",
+      title: "Košenje trave trimerom",
       price: "800rsd/ar",
       description: "Profesionalno košenje trave trimerom za teško pristupačna mesta i strme terene.",
     },
     {
-      title: "Kosenje trokakim nozem ili cirkularom",
+      title: "Košenje trokakim nozem ili cirkularom",
       price: "1600rsd/ar",
       description: "Efikasno sečenje guste vegetacije, žbunja i manjih stabala uz pomoć trokrakog noža ili cirkulara.",
     },
+
     {
-      title: "Kosenje trave kosacicom",
+      title: "Košenje trave kosacicom",
       price: "600rsd/ar",
       description: "Održavanje travnjaka profesionalnom opremom za najbolje rezultate.",
     },
+
     {
-      title: "Kosenje trave kosacicom sa skupljanjem trave",
+      title: "Košenje trave kosacicom sa skupljanjem trave",
       price: "800rsd/ar",
       description: "Temeljno košenje sa kompletnim čišćenjem i odnošenjem pokošene trave.",
     },
+
     {
-      title: "Izbacivanje trave iz dvorista dzakovima 160L",
+      title: "Izbacivanje trave iz dvorišta džakovima 160L",
       price: "350rsd/dzak",
       description: "Odvoz i ekološko zbrinjavanje pokošene trave u velikim džakovima od 160L.",
     },
