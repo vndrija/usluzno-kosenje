@@ -9,24 +9,24 @@ export default function Header() {
           <h1 className="text-lg sm:text-2xl font-bold">Usluzno kosenje Lazarevac</h1>
         </div>
         <nav className="w-full sm:w-auto">
-          <ul className="grid grid-cols-2 sm:flex sm:space-x-4 text-sm sm:text-base gap-y-1">
-            <li className="text-center">
-              <a href="#about" className="hover:underline block py-1">
+          <ul className="flex justify-center space-x-3 sm:space-x-4 text-xs sm:text-base">
+            <li>
+              <a href="#about" className="hover:underline whitespace-nowrap py-1">
                 O nama
               </a>
             </li>
-            <li className="text-center">
-              <a href="#services" className="hover:underline block py-1">
+            <li>
+              <a href="#services" className="hover:underline whitespace-nowrap py-1">
                 Usluge
               </a>
             </li>
-            <li className="text-center">
-              <a href="#experience" className="hover:underline block py-1">
+            <li>
+              <a href="#experience" className="hover:underline whitespace-nowrap py-1">
                 Iskustvo
               </a>
             </li>
-            <li className="text-center">
-              <a href="#contact" className="hover:underline block py-1">
+            <li>
+              <a href="#contact" className="hover:underline whitespace-nowrap py-1">
                 Kontakt
               </a>
             </li>
