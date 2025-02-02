@@ -24,7 +24,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="hover:underline"
               >
-                Usluzno Košenje Lazarevac
+                Uslužno košenje Lazarevac
               </a>
             </div>
             <div className="flex items-center">
@@ -35,7 +35,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="hover:underline"
               >
-                Usluzno Košenje Lazarevac
+                Uslužno košenje Lazarevac
               </a>
             </div>
           </div>

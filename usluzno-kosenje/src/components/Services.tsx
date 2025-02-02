@@ -6,10 +6,11 @@ export default function Services() {
       description: "Profesionalno košenje trave trimerom za teško pristupačna mesta i strme terene.",
     },
     {
-      title: "Košenje trokakim nozem ili cirkularom",
+      title: "Košenje trokrakim nožem ili cirkularom",
       price: "1600rsd/ar",
       description: "Efikasno sečenje guste vegetacije, žbunja i manjih stabala uz pomoć trokrakog noža ili cirkulara.",
     },
+
 
     {
       title: "Košenje trave kosacicom",
@@ -33,7 +34,7 @@ export default function Services() {
   return (
     <section id="services" className="bg-green-100 py-12 sm:py-16 px-4">
       <div className="container mx-auto">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-green-800 drop-shadow-md">Nase Usluge</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-green-800 drop-shadow-md">Naše Usluge</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
