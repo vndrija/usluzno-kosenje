@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { Suspense } from "react"
+import ImageSkeleton from "./ImageSkeleton"
 
 export default function Experience() {
   const images = [
@@ -26,15 +28,16 @@ export default function Experience() {
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-green-800 drop-shadow-md">Iskustvo</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {images.map((image, index) => (
-            <Image
-              key={index}
-              src={image.src}
-              width={1000}
-              height={800}
-              alt={image.alt}
-              className="rounded-lg shadow-lg w-full h-[350px] object-cover border-4 border-green-600 hover:border-green-500 transition-all duration-300 hover:scale-105"
-              loading="lazy"
-            />
+            <Suspense key={index} fallback={<ImageSkeleton className="w-full h-[350px]" />}>
+              <Image
+                src={image.src}
+                width={1000}
+                height={800}
+                alt={image.alt}
+                className="rounded-lg shadow-lg w-full h-[350px] object-cover border-4 border-green-600 hover:border-green-500 transition-all duration-300 hover:scale-105"
+                loading="lazy"
+              />
+            </Suspense>
           ))}
         </div>
         <p className="text-center mt-8 text-base sm:text-lg text-gray-700">

@@ -1,4 +1,6 @@
 import Image from "next/image"
+import { Suspense } from "react"
+import ImageSkeleton from "./ImageSkeleton"
 
 export default function About() {
   return (
@@ -7,15 +9,17 @@ export default function About() {
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-green-800 drop-shadow-md">O nama</h2>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
-            <Image
-              src="/o_nama.jpeg"
-              width={400}
-              height={300}
-              alt="About Us"
-              className="rounded-lg shadow-lg w-[400px] h-[400px] object-cover mx-auto border-4 border-green-600 transition-transform duration-300 hover:scale-105"
-              loading="eager"
-              priority
-            />
+            <Suspense fallback={<ImageSkeleton className="w-[400px] h-[400px]" />}>
+              <Image
+                src="/o_nama.jpeg"
+                width={400}
+                height={300}
+                alt="About Us"
+                className="rounded-lg shadow-lg w-[400px] h-[400px] object-cover mx-auto border-4 border-green-600 transition-transform duration-300 hover:scale-105"
+                loading="eager"
+                priority
+              />
+            </Suspense>
           </div>
           <div className="md:w-1/2 md:pl-8 md:mt-0">
             <p className="text-base sm:text-lg text-gray-700 mb-4">
