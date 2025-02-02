@@ -4,19 +4,18 @@ export default function About() {
   return (
     <section id="about" className="py-12 sm:py-16 px-4">
       <div className="container mx-auto">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-green-800">O nama</h2>
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-green-800 drop-shadow-md">O nama</h2>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <Image
-              src="/about-us.jpg"
+              src="/o_nama.jpeg"
               width={400}
               height={300}
               alt="About Us"
-              className="rounded-lg shadow-lg w-full h-auto"
-
+              className="rounded-lg shadow-lg w-[400px] h-[400px] object-cover mx-auto border-4 border-green-600"
             />
           </div>
-          <div className="md:w-1/2 md:pl-8">
+          <div className="md:w-1/2 md:pl-8 md:mt-0">
             <p className="text-base sm:text-lg text-gray-700 mb-4">
               Uslužno košenje Lazarevac već par godina pruža vrhunsku negu travnjaka našoj zajednici. Moje ime je
               Nikola i posvećen sam tome da vaš travnjak bude zdrav, zelen i prelep tokom cele godine.
