@@ -19,23 +19,23 @@ export default function Contact() {
             <div className="flex items-center mb-4">
               <Facebook className="h-5 w-5 mr-2 flex-shrink-0" />
               <a
-                href="https://www.facebook.com/usluznokosenjelazarevac"
+                href="https://m.facebook.com/100090498287289/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
               >
-                Usluzno kosenje lazarevac
+                Usluzno Košenje Lazarevac
               </a>
             </div>
             <div className="flex items-center">
               <Instagram className="h-5 w-5 mr-2 flex-shrink-0" />
               <a
-                href="https://www.instagram.com/usluznokosenjelazarevac"
+                href="https://www.instagram.com/usluzno__kosenje?igsh=MWJ6OXF4aWU0Z3IwNQ=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:underline"
               >
-                Usluzno kosenje lazarevac
+                Usluzno Košenje Lazarevac
               </a>
             </div>
           </div>
