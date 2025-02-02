@@ -32,7 +32,8 @@ export default function Experience() {
               width={1000}
               height={800}
               alt={image.alt}
-              className="rounded-lg shadow-lg w-full h-[350px] object-cover border-4 border-green-600 hover:border-green-500 transition-colors"
+              className="rounded-lg shadow-lg w-full h-[350px] object-cover border-4 border-green-600 hover:border-green-500 transition-all duration-300 hover:scale-105"
+              loading="lazy"
             />
           ))}
         </div>
