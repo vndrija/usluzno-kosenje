@@ -1,4 +1,4 @@
-import { MapPin, Phone, Facebook, Instagram } from "lucide-react"
+import { Phone, Facebook, Instagram } from "lucide-react"
 
 export default function Contact() {
   return (
