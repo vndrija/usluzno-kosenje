@@ -15,7 +15,7 @@ export default function About() {
                 width={400}
                 height={300}
                 alt="About Us"
-                className="rounded-lg shadow-lg w-[400px] h-[400px] object-cover mx-auto border-4 border-green-600 transition-transform duration-300 hover:scale-105"
+                className="rounded-lg shadow-lg w-[400px] h-[400px] object-cover mx-auto border-4 border-green-600 "
                 loading="eager"
                 priority
               />

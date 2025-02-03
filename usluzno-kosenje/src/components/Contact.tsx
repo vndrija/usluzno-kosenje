@@ -13,10 +13,6 @@ export default function Contact() {
               <span>(+381) 641449845</span>
             </div>
             <div className="flex items-center mb-4">
-              <MapPin className="h-5 w-5 mr-2 flex-shrink-0" />
-              <span>Lazarevac, Srbija</span>
-            </div>
-            <div className="flex items-center mb-4">
               <Facebook className="h-5 w-5 mr-2 flex-shrink-0" />
               <a
                 href="https://m.facebook.com/100090498287289/"

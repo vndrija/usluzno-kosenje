@@ -12,6 +12,9 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['var(--font-poppins)', 'sans-serif'],
+      },
       textShadow: {
         DEFAULT: '2px 2px 4px rgba(0, 0, 0, 0.2)',
       },
