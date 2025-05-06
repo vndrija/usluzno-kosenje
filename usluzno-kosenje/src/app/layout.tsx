@@ -11,6 +11,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Usluzno Kosenje Lazarevac',
   description: 'Profesionalne usluge košenja travnjaka u Lazarevcu',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
