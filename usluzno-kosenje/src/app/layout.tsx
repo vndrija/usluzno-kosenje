@@ -20,6 +20,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="sr">
+      <head>
+        <link rel="icon" href="/o_nama.jpeg" type="image/jpeg" />
+      </head>
       <body className={`${poppins.variable} font-sans`}>{children}</body>
     </html>
   )
